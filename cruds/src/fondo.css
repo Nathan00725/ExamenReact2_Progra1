@@ -1,0 +1,48 @@
+.container {
+    padding: 2rem;
+    background-color: #1a1a2e; /* Color oscuro para el fondo */
+    min-height: 100vh;
+    background-image: radial-gradient(
+        white 0.5px,
+        transparent 0.5px
+      ),
+      radial-gradient(
+        white 0.5px,
+        #1a1a2e 0.5px
+      );
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+  }
+  
+  .btn-custom {
+    background-color: #4e0eff; /* Un color púrpura suave */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #3e00ff;
+    color: #fff;
+  }
+  
+  .btn-custom-delete {
+    background-color: #ff00a6; /* Un color rosa suave */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom-delete:hover {
+    background-color: #ff0080;
+    color: #fff;
+  }
+  
+  .card-img-top {
+    height: 180px; /* Fija una altura para que todas las imágenes se vean del mismo tamaño */
+    object-fit: cover; /* Hace que la imagen cubra el área designada sin distorsionarse */
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 1rem; /* Ajustar el tamaño de los márgenes para dispositivos móviles */
+    }
+  }
